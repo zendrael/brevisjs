@@ -1,16 +1,16 @@
-#BREVIS.js
+# BREVIS.js
 
-##What is it?
+## What is it?
 
 Brevis.js is a small, almost micro, JavaScript / HTML5 game framework for mobile devices. The main focus is to write less code as possible to create mobile games with already pre-made objects and behaviors.
 
 Current version is **1.0** from **2017-07-19**.
 
-##Why another JS game framework?
+## Why another JS game framework?
 
 It started as an experience to build my own games and to make it faster on mobile platforms, in a way that I could write short codes and get full games as fast as possible.
 
-##How to get started?
+## How to get started?
 
 First create a simple HTML file as follows:
 ```
@@ -63,7 +63,7 @@ You can also check out the examples directory for more ways on how to use Brevis
 Happy coding!
 
 
-##Games built with Brevis.js:
+## Games built with Brevis.js:
 
 Made a game using Brevis? Send a link to show up here!
 

@@ -49,6 +49,7 @@ Tween = function(target, args, context) {
       } else if (this.target.x == Math.ceil(this.newx)) {
         //this.target.x = this.newx;
         this.finished = true;
+        this.newx = null;
       }
 
       if (this.newx < this.target.x) {
@@ -57,6 +58,7 @@ Tween = function(target, args, context) {
       } else if (this.target.x == Math.ceil(this.newx)) {
         //this.target.x = this.newx;
         this.finished = true;
+        this.newx = null;
       }
     }
 
@@ -68,12 +70,14 @@ Tween = function(target, args, context) {
         this.target.y += Math.ceil(newy);
       } else if (this.target.y == Math.ceil(this.newy)) {
         this.finished = true;
+        this.newy = null;
       }
 
       if (this.newy < this.target.y) {
         this.target.y -= Math.ceil(newy);
       } else if (this.target.y == Math.ceil(this.newy)) {
         this.finished = true;
+        this.newy = null;
       }
     }
 

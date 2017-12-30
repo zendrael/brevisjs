@@ -489,18 +489,19 @@ function Brevis() {
     //console.log('update');
     if (this.currentScene) {
       //update objects and behaviors
-      for (var i = 0; i < this.currentSceneObjects.length; i++) {
+      /*for (var i = 0; i < this.currentSceneObjects.length; i++) {
         //this.currentSceneObjects[i].update();
-      }
+      }*/
 
       //update animations like tweens
       for (var i = 0; i < this.currentSceneAnimations.length; i++) {
         if (!this.currentSceneAnimations[i].finished) {
           this.currentSceneAnimations[i].update();
-        } else {
+        } /*else {
           this.currentSceneAnimations.splice(i, 1);
-        }
+        }*/
       }
+      
       //remove animations (tweens) if they are finished
       for (var i = 0; i < this.currentSceneAnimations.length; i++) {
         if (this.currentSceneAnimations[i].finished) {

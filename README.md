@@ -22,7 +22,7 @@ First create a simple HTML file as follows:
 		<script src="mygame.js"></script>
 	</head>
 	<body>
-		<!-- nothing here - API will do the magic! -->
+		<!-- nothing here - BrevisJS will do the magic! -->
 	</body>
 </html>
 ```
